@@ -1,0 +1,16 @@
+table {
+    border-spacing: 0px;
+    width: 100%;
+    font-size: 27px;
+    max-width: 1400px;
+}
+
+tr:nth-child(2n) td {
+    background: #ddebf6;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+table td:nth-child(2n+3) {
+    background: #f3f2de;
+}

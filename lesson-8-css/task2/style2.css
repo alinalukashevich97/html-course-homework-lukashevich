@@ -1,0 +1,46 @@
+body{
+@import url('https://fonts.google.com/share?selection.family=Oswald:wght@300');
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    background-color: mediumorchid;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: flex;
+}
+
+.menu-container {
+    display: flex;
+    padding: 0 20px;
+}
+
+.menu-container:last-child {
+    justify-self: end;
+
+}
+
+.menu-container li a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+    transition: all 0.4s;
+}
+
+.menu-container li a:hover {
+    background-color: lavender;
+    color: darkgray;
+}
+
+.list-last-element {
+    flex: 1;
+    justify-content: flex-end;
+}
+
