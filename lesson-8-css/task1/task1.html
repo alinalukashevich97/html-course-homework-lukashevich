@@ -5,47 +5,44 @@
     <title>Task1</title>
 </head>
 <body>
-<h1>
-    Sign up to the app
-</h1>
-<form>
+  <h1>Sign up to the app</h1>
+  <form>
     <fieldset>
-        <legend>
-            Personal information:
-        </legend>
+      <legend>
+          Personal information:
+      </legend>
         <label>First name:</label>
-            <br><input type="text" name="First name" placeholder="Mickey">
-            <p>
-                <label>Last name:
-                    <br><input type="text" name="Last name" placeholder="Mouse">
-                </label>
-            </p>
-            <p>
-                <label>Self-presentation:
+        <br>
+      <input type="text" name="First name" placeholder="Mickey">
+        <p>
+            <label>Last name:
+                <br><input type="text" name="Last name" placeholder="Mouse">
+            </label>
+        </p>
+        <p>
+            <label>Self-presentation:
                     <br>
                     <textarea name="comment" id="comment" cols="50" rows="15">The cat was playing in the garden.</textarea>
-                </label>
-            </p>
+            </label>
+        </p>
     </fieldset>
-    <p>
+      <br>
     <fieldset>
-        <legend>
-            Car info(the brand):
-        </legend>
-    <select name="list" size="1">
-        <option selected disabled value="0">Volvo</option>
-        <option value="Saab">Saab</option>
-        <option value="Fiat">Fiat</option>
-        <option value="Audi">Audi</option>
-    </select>
+        <legend>Car info(the brand):</legend>
+        <select name="list" size="1">
+          <option selected disabled value="0">Volvo</option>
+          <option value="Saab">Saab</option>
+          <option value="Fiat">Fiat</option>
+          <option value="Audi">Audi</option>
+        </select>
     </fieldset>
     </p>
     <p>
     <fieldset>
-    <legend>
+      <legend>
         Choose one:
-    </legend>
-        <input type="radio" name="gender" value="Male" checked="checked" /> Male<br />
+      </legend>
+        <input type="radio" name="gender" value="Male" checked="" /> Male<br />
         <input type="radio" name="gender" value="Female" /> Female<br />
         <input type="radio" name="gender" value="Other" /> Other<br />
     </fieldset>
@@ -61,8 +58,8 @@
     </p>
     <p>
         <input name="submit" type="submit" id="submit" value="Submit" />
-        <input name="cancel" type="submit" id="cancel" value="Cansel" />
+        <input name="cancel" type="reset" id="cancel" value="Cansel" />
     </p>
-</form>
+  </form>
 </body>
 </html>
