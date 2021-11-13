@@ -1,0 +1,22 @@
+.link-text{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.link-symbol {
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.color-grey {
+    color: grey;
+}
