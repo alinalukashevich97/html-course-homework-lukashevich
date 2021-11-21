@@ -168,7 +168,8 @@ body {
 }
 
 .features > li {
-  background: url("arrow (2).png") no-repeat;
+  background: url("arrow (2).png") no-repeat 32px 11px;
+  padding: 7px 8px 8px 62px;
 }
 
 .features > li:nth-child(odd) {
