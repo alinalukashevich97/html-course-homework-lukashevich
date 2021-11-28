@@ -40,7 +40,6 @@ nav li {
 }
 
 .list-last-element {
-    flex: 1;
-    justify-content: flex-end;
+    float: right;
 }
 
