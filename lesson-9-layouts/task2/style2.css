@@ -9,19 +9,20 @@
   flex: 1;
   font-size: 20px;
   font-weight: bold;
-  color: orchid;
+  color: #a23cd0;
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid orchid;
+  border: 1px solid #a23cd0;
   transition: all 0.4s;
   margin: 0 5px;
   height: 40px;
   max-width: 40px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .pagination-item-selected {
-  background-color: orchid;
+  background-color: #a23cd0;
   color: white;
 }
 
@@ -32,23 +33,35 @@
   flex: 1;
   font-size: 20px;
   font-weight: bold;
-  color: orchid;
+  color: #a23cd0;
   height: 40px;
   max-width: 40px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .pagination-button {
   display: flex;
   align-items: center;
-  color: orchid;
+  color: #a23cd0;
   font-size: 20px;
   font-weight: bold;
   margin: 0 15px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .pagination-item:hover {
-  background-color: orchid;
+  background-color: #a23cd0;
   color: white;
+}
+
+.pager-prefix a:before {
+  content: '\00ab';
+  margin-right: 3px;
+}
+
+.pager-suffix a:after {
+  content: '\00bb';
+  margin-left: 3px;
 }

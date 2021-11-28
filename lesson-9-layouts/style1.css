@@ -36,9 +36,11 @@ label[for="blue"] {
 }
 
 span {
+  display: inline-block;
   padding: 2px 5px;
   font-weight: bold;
   border-radius: 7px;
+  margin: 3px;
 }
 
 .red {
@@ -59,4 +61,3 @@ span {
 div {
   font-size: 20px;
 }
-
