@@ -9,22 +9,14 @@
     var lastName = prompt('Ваша фамилия ?');
     var firstName = prompt('Ваше имя ?');
     var patronymic = prompt('Ваше отчество ?');
-    alert('Ваше ФИО:' + ' ' + lastName + ' ' + firstName + ' ' + patronymic);
     var age = parseInt(prompt('Ваш возраст ?'));
-    alert('Ваш возраст в годах:'+ ' ' + age);
-    var days = prompt('Ваш вораст в днях:');
-    alert(days);
-    var years = 5;
-    alert('Ваш возраст через 5 лет:');
-    alert(+age + +years);
-    var gender = confirm('Ваш пол - женский?');
-    alert(gender);
-    var pension = prompt('Вы на пенсии?');
-    if (pension == нет) {
-      alert('нет');
-    } else {
-      alert('да');
-    }
+    var gender = confirm('Ваш пол - женский?')
+    var ageAfterFiveYears = age + 5;
+    var isUserAtPension = age > 60 ? 'да' : 'нет';
+
+    alert('Ваше ФИО:' + ' ' + lastName + ' ' + firstName + ' ' + patronymic + '\n ваш возраст в годах: ' + age +
+      '\n ваш возраст в днях: ' + age * 365 + '\n через 5 лет вам будет: ' + ageAfterFiveYears +
+      '\n ваш пол: ' + gender + '\n вы на пенсии: ' + isUserAtPension);
   </script>
 </body>
 </html>
