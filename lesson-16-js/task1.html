@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task1</title>
+</head>
+<body>
+  <script>
+    function fuddyDuddy (a, b) {
+      for (var i = a; i <= b; i++) {
+        if (i % 3 === 0) {
+          console.log(i + ' Fuddy');
+          continue;
+        }
+
+        if (i % 5 === 0) {
+          console.log(i + ' Duddy');
+          continue;
+        }
+
+        console.log(i);
+      }
+    }
+
+    function fuddyDuddyNew (a, b) {
+      for (var i = a; i <= b; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+          console.log(i + ' Fuddy'+'-'+'Daddy');
+        }
+
+        console.log(i);
+      }
+    }
+
+    fuddyDuddyNew(1, 100);
+  </script>
+</body>
+</html>
